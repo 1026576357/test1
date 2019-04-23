@@ -3,7 +3,7 @@ import {Platform,Button, StyleSheet, Text, TouchableOpacity, View} from 'react-n
 import  {createMaterialTopTabNavigator} from 'react-navigation'
 import {createAppContainer} from 'react-navigation';
 type Props = {};
-import NavigationUtil  from '../navigator/NavigationUtil'
+// import NavigationUtil  from '../navigator/NavigationUtil'
 import Ionicons from "react-native-vector-icons/Ionicons";
 export default class PopularPage extends Component<Props> {
     constructor(props) {
@@ -55,7 +55,7 @@ class PopularTab extends Component<Props> {
         const {tabLabel}=this.props;
         return (
             <View >
-               
+
             </View>
 
         );
